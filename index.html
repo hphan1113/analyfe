@@ -22,15 +22,18 @@
     <header class="primary-header container group">
 
       <h1 class="logo">
-        <a href="index.html">Life <br> Analytics</a>
+        <a href="index.html"><img src="img/logo1.png">Life Analytics</a>
       </h1>
 
       <nav class="nav primary-nav">
         <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
                         <li><a data-toggle="modal" data-target="#loginModal">
                             <span class="glyphicon glyphicon-log-in"></span> Login</a>
                         </li>
-                        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Setting</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-edit"></span> Signup</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
         </ul>
       </nav>
       
@@ -99,6 +102,11 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-xs-12 col-sm-3">
+                <p><a href="#"><span class="glyphicon glyphicon-heart-empty"></span> Current Mood</a></p>
+                <p><a href="#"><span class="glyphicon glyphicon-stats"></span> Your Stats</a></p>
+            </div>
         </div>
     <hr style="padding:30px;">
 
@@ -109,7 +117,7 @@
                 <ul class="nav nav-tabs" role="tablist">
                     <li role="presentation" class="active">
                     <a href="#home" aria-controls="home"
-                     role="tab" data-toggle="tab">Home</a></li>
+                     role="tab" data-toggle="tab">Weekly Overview</a></li>
                     <li role="presentation"><a href="#location"
                      aria-controls="location" role="tab"
                      data-toggle="tab">Locations</a></li>
@@ -123,16 +131,21 @@
                 
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="home">
-                        <p>home</p>
+                        <p style="text-align:center;"><img src="img/home-chart.png"></p>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="location">
-                        <p>Placeholder</p>
+                        <p style="text-align:center;"><iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d94336.77785330424!2d-71.15686548863683!3d42.36332122847414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e370af14ef0d2d%3A0xbe30af2bb039c349!2sCambridge%2C+MA+02142!3m2!1d42.3632157!2d-71.08682519999999!5e0!3m2!1sen!2sus!4v1471112391367" width="1000" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></p>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="daylong">
-                        <p>Daylong Summaries placeholder</p>
+                        <p><p style="text-align:center;"><img src="img/summary-chart.png"></p></p>
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="suggestions">
-                        <p>Placeholder</p>
+                        <p><h4>Here are our suggestions for the day</h4><br>
+                        Visit these places:
+                            <ul><li>Clover</li>
+                                <li>Champions</li>
+                            </ul>
+                        Call and have a chat with Jane</p>
                     </div>
                 </div>
             </div>
