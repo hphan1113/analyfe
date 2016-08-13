@@ -1,0 +1,72 @@
+body {
+  align: center;
+  padding: 0;
+  margin:0;
+  z-index: 0;
+  /*background: #d9edf7;*/
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+/*HEADER*/
+.logo {
+  border-top: 5px solid #648880;
+  float: left;
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  line-height: 44px;
+  padding: 40px 0 22px 0;
+  text-transform: uppercase;
+  margin-top:0;
+}
+.jumbotron h1{
+  color:#fff;
+}
+.primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+#user img{
+  width: 10em;
+}
+
+/*FOOTER*/
+.primary-footer {
+  color: #648880;
+  font-size: 14px;
+  padding-bottom: -125px;
+  padding-top: 80px;
+}
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
+
+.nav {
+  text-align: right;
+}
+.nav ul{
+  margin-top:141px;
+}
+footer .nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+
+
+/*NavTabs*/
+.tab-content {
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  padding: 50px;
+}
